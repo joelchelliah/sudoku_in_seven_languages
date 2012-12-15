@@ -1,6 +1,5 @@
 -module(sudoku).
--export([solve/1, solve/3]).
-
+-export([sudoku/0, solve/3]).
 
 solve(Puzzle) -> io:format("~n Puzzle: ~n"), show(Puzzle), solve(Puzzle, 0, 0).
 
@@ -49,3 +48,7 @@ show([[H1,H2,H3,H4,H5,H6,H7,H8,H9]|T], Row)->
 		_ -> io:format("| ~p ~p ~p | ~p ~p ~p | ~p ~p ~p |~n",[H1,H2,H3,H4,H5,H6,H7,H8,H9])
 	end,
 	show(T, Row+1).
+
+
+% Puzzle:
+sudoku() -> solve([[0,4,0,2,0,0,5,0,0], [0,0,5,0,7,0,0,0,8], [9,0,0,0,0,0,0,4,0], [1,0,0,9,0,0,0,6,0], [0,0,7,0,5,0,0,8,0], [0,0,0,0,0,6,0,0,0], [4,1,0,0,0,0,0,0,0], [0,7,3,0,0,0,2,0,0], [0,0,9,0,6,7,0,0,0]]).

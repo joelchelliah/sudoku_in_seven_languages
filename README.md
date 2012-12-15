@@ -7,4 +7,4 @@ Sudoku solvers implemented in the following 7 languages:
 - Clojure (In progress)
 - Haskell (Todo)
 
-Based on the languages presented in the book "Seven Languages in Seven Weeks" by Bruce A. Tate
+As an additional exercise to working through the book: "Seven Languages in Seven Weeks" by Bruce A. Tate
