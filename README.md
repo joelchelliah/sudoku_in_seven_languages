@@ -4,7 +4,7 @@ Sudoku solvers implemented in the following 7 languages:
 - Prolog
 - Scala
 - Erlang
-- Clojure (In progress)
-- Haskell (Todo)
+- Clojure
+- Haskell (In progress)
 
 As an additional exercise to working through the book: "Seven Languages in Seven Weeks" by Bruce A. Tate
